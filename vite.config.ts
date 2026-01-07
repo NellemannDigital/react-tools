@@ -11,7 +11,7 @@ export default defineConfig({
     outDir: 'public',
     rollupOptions: {
       input: {
-        'tool-one': 'src/tools/tool-one/element.tsx',
+        'car-list': 'src/tools/car-list/element.tsx',
         'tool-two': 'src/tools/tool-two/element.tsx'
       },
       output: {
