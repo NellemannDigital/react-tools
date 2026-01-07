@@ -1,12 +1,12 @@
 import * as React from "react";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent } from "../../components/ui/card";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/components/ui/carousel";
+} from "../../components/ui/carousel";
 
 export interface Car {
   id: number;
@@ -34,7 +34,7 @@ export const Slider: React.FC<Props> = ({ car }) => {
         </h2>
 
         <div className="relative overflow-hidden">
-          <Carousel loop opts={{
+          <Carousel opts={{
               align: "start",
             }} className="group">
             <CarouselContent className="flex gap-4">

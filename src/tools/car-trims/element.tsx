@@ -14,7 +14,7 @@ class CarTrimsElement extends HTMLElement {
       return;
     }
 
-    const url = `https://tools-kiaonline.test/api/cars/${carId}`;
+    const url = `https://qzb1gxuer5.sharedwithexpose.com/api/cars/${carId}`;
 
     try {
       const res = await fetch(url);
