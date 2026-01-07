@@ -49,7 +49,7 @@ function m({ cars: o }) {
 class g extends HTMLElement {
   async connectedCallback() {
     const t = this.getAttribute("car-id");
-    let a = "./cars.json";
+    let a = "https://tools-kiaonline.test/api/tools/cars";
     if (t) {
       const i = t.split(",").map((r) => r.trim());
       a += "?ids=" + i.join(",");

@@ -5,7 +5,7 @@ import App, { type Car } from './App'
 class CarListElement extends HTMLElement {
   async connectedCallback() {
     const carIdAttr = this.getAttribute('car-id')
-    let url = 'https://tools-kiaonline.test/api/tools/cars'
+    let url = 'https://gaz7i9sbcz.sharedwithexpose.com/api/tools/cars'
 
     if (carIdAttr) {
       const ids = carIdAttr.split(',').map(id => id.trim())
