@@ -3,7 +3,7 @@
     {
       "source": [
         "/tool-one.js",
-        "/tool-two.js",
+        "/tool-two.js"
       ],
       "headers": [
         { "key": "Access-Control-Allow-Origin", "value": "*" },
