@@ -1,10 +1,14 @@
 {
   "headers": [
     {
-      "source": [
-        "/tool-one.js",
-        "/tool-two.js"
-      ],
+      "source": "/tool-one.js",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET, OPTIONS" }
+      ]
+    },
+    {
+      "source": "/tool-two.js",
       "headers": [
         { "key": "Access-Control-Allow-Origin", "value": "*" },
         { "key": "Access-Control-Allow-Methods", "value": "GET, OPTIONS" }
