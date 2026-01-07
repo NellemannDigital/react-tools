@@ -1,0 +1,1105 @@
+[
+  {
+    "id": 46,
+    "struct_id": 2188886,
+    "web_id": "4284f62a-6bef-4be2-9549-381342c257d1",
+    "name": "EV3",
+    "year": "2026",
+    "delivery_year": "2025",
+    "disclaimer": null,
+    "model": {
+      "name": "EV3",
+      "brand": "Kia",
+      "code": "9V",
+      "parent_model_code": "SV"
+    },
+    "variant": {
+      "name": "CUV",
+      "code": "W5",
+      "b2b": false
+    },
+    "primary_image": {
+      "struct_id": "7626",
+      "name": "Kia Ev3 My25 Gls Ag3 Aventurinegreen 17 0000",
+      "url": "https://nellemann.cloud12.structpim.com/media/2anf1vbr/kia-ev3-my25-gls-ag3-aventurinegreen-17_0000.png",
+      "file_type": "Image",
+      "type": "Image"
+    },
+    "technical_specifications": null,
+    "dimensions": null,
+    "campaign": null,
+    "urls": {
+      "website": "https://www.kia.com/dk/modeller/ev3/discover/",
+      "build_configurator": "https://kiaonline.dk/konfigurator/ev3/",
+      "leasing_configurator": "https://kiaonline.dk/bestil/ev3/",
+      "technical_specifications": "https://www.kia.com/dk/modeller/ev3/specifikationer",
+      "test_drive": "https://kiaonline.dk/book-en-proevetur/ev3/"
+    },
+    "channels": {
+      "master_channel": {
+        "open_from": "2025-04-30",
+        "open_to": null
+      },
+      "web_channel": {
+        "open_from": "2025-04-30",
+        "open_to": null
+      },
+      "dealer_channel": {
+        "open_from": "2025-04-30",
+        "open_to": null,
+        "open_internal": false
+      },
+      "price_channel": {
+        "open_from": "2025-05-01",
+        "open_to": null
+      },
+      "test_drive_channel": {
+        "booking_start": "2024-10-28",
+        "test_start": "2024-11-04"
+      }
+    },
+    "price_list": {
+      "primary_image": {
+        "struct_id": "11697",
+        "name": "Kia Ev3",
+        "url": "https://nellemann.cloud12.structpim.com/media/2oef1dly/kia-ev3.jpg",
+        "file_type": "Image",
+        "type": "Image"
+      },
+      "campaign_image": null
+    },
+    "files": [
+      {
+        "file": null,
+        "document_type": "Prisliste",
+        "valid_from": "2024-08-31",
+        "valid_to": null,
+        "url": "https://www.kia.com/dk/modeller/ev3/specifikationer/"
+      },
+      {
+        "file": null,
+        "document_type": "Tekniske data",
+        "valid_from": "2024-09-16",
+        "valid_to": null,
+        "url": "https://brochure.kia.com/KiaMotorsDanmark/Teknikark/ev3/"
+      },
+      {
+        "file": null,
+        "document_type": "Brochure",
+        "valid_from": "2024-11-13",
+        "valid_to": null,
+        "url": "https://brochure.kia.com/KiaMotorsDanmark/Brochurer/ev3/"
+      },
+      {
+        "file": null,
+        "document_type": "Tilbehør",
+        "valid_from": null,
+        "valid_to": null,
+        "url": "https://tools.kiaonline.dk/storage/price-lists/ev3.pdf"
+      },
+      {
+        "file": null,
+        "document_type": "Instruktionsbog",
+        "valid_from": "2024-11-13",
+        "valid_to": null,
+        "url": "https://brochure.kia.com/KiaMotorsDanmark/instruktionsbog/nye-modeller/ev3/"
+      }
+    ],
+    "insurance_rates": [
+      {
+        "age_from": 18,
+        "age_to": 20,
+        "annual_price": 13378,
+        "excess": 10000
+      },
+      {
+        "age_from": 21,
+        "age_to": 23,
+        "annual_price": 12346,
+        "excess": 5000
+      },
+      {
+        "age_from": 24,
+        "age_to": 29,
+        "annual_price": 6153,
+        "excess": 5000
+      },
+      {
+        "age_from": 30,
+        "age_to": 150,
+        "annual_price": 5121,
+        "excess": 5000
+      }
+    ],
+    "categories": [
+      "EV",
+      "SUV",
+      "Elektrisk",
+      "Elektrificerede modeller",
+      "Bybiler",
+      "Familiebiler"
+    ],
+    "created_at": "2025-12-18T10:21:11.000000Z",
+    "updated_at": "2025-12-18T10:21:11.000000Z"
+  },
+  {
+    "id": 42,
+    "struct_id": 2188447,
+    "web_id": "5e8a7fe7-4de2-4b61-83b9-985e73f2ce57",
+    "name": "EV4",
+    "year": "2026",
+    "delivery_year": "2025",
+    "disclaimer": null,
+    "model": {
+      "name": "EV4 Hatchback",
+      "brand": "Kia",
+      "code": "7Z",
+      "parent_model_code": "SZ1"
+    },
+    "variant": {
+      "name": "5 døre",
+      "code": "S6",
+      "b2b": false
+    },
+    "primary_image": {
+      "struct_id": "14894",
+      "name": "Kia Ev4 Air My26 Acw Morninghaze 17 0001",
+      "url": "https://nellemann.cloud12.structpim.com/media/r5qlgljv/kia-ev4-air-my26-acw-morninghaze-17_0001.png",
+      "file_type": "Image",
+      "type": "Image"
+    },
+    "technical_specifications": null,
+    "dimensions": null,
+    "campaign": null,
+    "urls": {
+      "website": "https://www.kia.com/dk/modeller/ev4/oplev/",
+      "build_configurator": "https://kiaonline.dk/konfigurator/ev4/",
+      "leasing_configurator": null,
+      "technical_specifications": "https://www.kia.com/dk/modeller/ev4/ev4-specifikationer/",
+      "test_drive": null
+    },
+    "channels": {
+      "master_channel": {
+        "open_from": "2025-04-10",
+        "open_to": null
+      },
+      "web_channel": {
+        "open_from": "2025-11-19",
+        "open_to": null
+      },
+      "dealer_channel": {
+        "open_from": "2025-11-19",
+        "open_to": null,
+        "open_internal": false
+      },
+      "price_channel": {
+        "open_from": "2025-11-18",
+        "open_to": null
+      },
+      "test_drive_channel": null
+    },
+    "price_list": {
+      "primary_image": {
+        "struct_id": "18271",
+        "name": "KIA EV4 0088",
+        "url": "https://nellemann.cloud12.structpim.com/media/jdodfsoo/kia_ev4_0088.jpg",
+        "file_type": "Image",
+        "type": "Image"
+      },
+      "campaign_image": null
+    },
+    "files": [
+      {
+        "file": null,
+        "document_type": "Tilbehør",
+        "valid_from": null,
+        "valid_to": null,
+        "url": "https://tools.kiaonline.dk/storage/price-lists/ev4.pdf"
+      }
+    ],
+    "insurance_rates": [],
+    "categories": [],
+    "created_at": "2025-12-18T10:20:32.000000Z",
+    "updated_at": "2025-12-18T10:20:32.000000Z"
+  },
+  {
+    "id": 43,
+    "struct_id": 2188448,
+    "web_id": "40b3b74d-ecbf-4bb6-ba19-cb4dca1769a5",
+    "name": "EV4 Fastback",
+    "year": "2026",
+    "delivery_year": "2025",
+    "disclaimer": null,
+    "model": {
+      "name": "EV4 Fastback",
+      "brand": "Kia",
+      "code": "1Z",
+      "parent_model_code": "CT"
+    },
+    "variant": {
+      "name": "4 døre",
+      "code": "S4",
+      "b2b": false
+    },
+    "primary_image": {
+      "struct_id": "16921",
+      "name": "Kia Ev4 Fastback Earth My26 Acw Morninghaze 19 0000",
+      "url": "https://nellemann.cloud12.structpim.com/media/ri5daii0/kia-ev4-fastback-earth-my26-acw-morninghaze-19_0000.png",
+      "file_type": "Image",
+      "type": "Image"
+    },
+    "technical_specifications": null,
+    "dimensions": null,
+    "campaign": null,
+    "urls": {
+      "website": "https://www.kia.com/dk/modeller/ev4/oplev/",
+      "build_configurator": null,
+      "leasing_configurator": null,
+      "technical_specifications": null,
+      "test_drive": null
+    },
+    "channels": {
+      "master_channel": {
+        "open_from": "2025-04-10",
+        "open_to": null
+      },
+      "web_channel": {
+        "open_from": "2026-01-01",
+        "open_to": null
+      },
+      "dealer_channel": {
+        "open_from": "2025-12-18",
+        "open_to": null,
+        "open_internal": false
+      },
+      "price_channel": {
+        "open_from": "2026-01-01",
+        "open_to": null
+      },
+      "test_drive_channel": null
+    },
+    "price_list": null,
+    "files": [],
+    "insurance_rates": [],
+    "categories": [],
+    "created_at": "2025-12-18T10:20:42.000000Z",
+    "updated_at": "2025-12-18T10:20:42.000000Z"
+  },
+  {
+    "id": 50,
+    "struct_id": 2210466,
+    "web_id": null,
+    "name": "EV5",
+    "year": "2026",
+    "delivery_year": "2025",
+    "disclaimer": null,
+    "model": {
+      "name": "EV5",
+      "brand": "Kia",
+      "code": "X9",
+      "parent_model_code": "OV1"
+    },
+    "variant": {
+      "name": "SUV",
+      "code": "W5",
+      "b2b": false
+    },
+    "primary_image": null,
+    "technical_specifications": null,
+    "dimensions": null,
+    "campaign": null,
+    "urls": null,
+    "channels": {
+      "master_channel": {
+        "open_from": "2025-11-04",
+        "open_to": null
+      },
+      "web_channel": null,
+      "dealer_channel": {
+        "open_from": null,
+        "open_to": null,
+        "open_internal": true
+      },
+      "price_channel": null,
+      "test_drive_channel": null
+    },
+    "price_list": null,
+    "files": [],
+    "insurance_rates": [],
+    "categories": [],
+    "created_at": "2025-12-18T10:21:51.000000Z",
+    "updated_at": "2025-12-18T10:21:51.000000Z"
+  },
+  {
+    "id": 27,
+    "struct_id": 2121632,
+    "web_id": "",
+    "name": "EV6",
+    "year": "2024",
+    "delivery_year": "",
+    "disclaimer": null,
+    "model": {
+      "name": "EV6",
+      "brand": "Kia",
+      "code": "AS",
+      "parent_model_code": "CV"
+    },
+    "variant": {
+      "name": "CUV",
+      "code": "W5",
+      "b2b": false
+    },
+    "primary_image": {
+      "struct_id": "7391",
+      "name": "Kia Ev6 Gtl My24 Klmmoonscape 20 0000",
+      "url": "https://nellemann.cloud12.structpim.com/media/x2thjwmm/kia-ev6-gtl-my24-klmmoonscape-20_0000.png",
+      "file_type": "Image",
+      "type": "Image"
+    },
+    "technical_specifications": null,
+    "dimensions": null,
+    "campaign": null,
+    "urls": null,
+    "channels": {
+      "master_channel": {
+        "open_from": "2023-07-01",
+        "open_to": null
+      },
+      "web_channel": {
+        "open_from": "2023-07-01",
+        "open_to": null
+      },
+      "dealer_channel": {
+        "open_from": "2023-07-01",
+        "open_to": "2025-02-18",
+        "open_internal": false
+      },
+      "price_channel": {
+        "open_from": "2023-07-01",
+        "open_to": null
+      },
+      "test_drive_channel": null
+    },
+    "price_list": null,
+    "files": [
+      {
+        "file": null,
+        "document_type": "Brochure",
+        "valid_from": "2024-06-19",
+        "valid_to": "2024-10-23",
+        "url": "https://brochure.kia.com/KiaMotorsDanmark/Brochurer/ev6/"
+      },
+      {
+        "file": null,
+        "document_type": "Prisliste",
+        "valid_from": "2024-06-19",
+        "valid_to": "2024-10-23",
+        "url": "https://brochure.kia.com/KiaMotorsDanmark/Prislister/ev6-prisliste/"
+      },
+      {
+        "file": null,
+        "document_type": "Tekniske data",
+        "valid_from": "2024-09-16",
+        "valid_to": "2024-10-23",
+        "url": "https://brochure.kia.com/KiaMotorsDanmark/Teknikark/ev6/"
+      },
+      {
+        "file": null,
+        "document_type": "Tekniske data",
+        "valid_from": "2024-09-16",
+        "valid_to": "2024-10-23",
+        "url": "https://brochure.kia.com/KiaMotorsDanmark/Teknikark/ev6-gt/"
+      },
+      {
+        "file": null,
+        "document_type": "Prisliste",
+        "valid_from": null,
+        "valid_to": "2024-10-23",
+        "url": "https://brochure.kia.com/KiaMotorsDanmark/Prislister/ev6-gt/"
+      }
+    ],
+    "insurance_rates": [
+      {
+        "age_from": 18,
+        "age_to": 20,
+        "annual_price": 12645,
+        "excess": 10000
+      },
+      {
+        "age_from": 21,
+        "age_to": 23,
+        "annual_price": 11613,
+        "excess": 5000
+      },
+      {
+        "age_from": 24,
+        "age_to": 29,
+        "annual_price": 6659,
+        "excess": 5000
+      },
+      {
+        "age_from": 30,
+        "age_to": 150,
+        "annual_price": 6039,
+        "excess": 5000
+      }
+    ],
+    "categories": [
+      "Premium",
+      "EV",
+      "Elektrificerede modeller",
+      "Elektrisk",
+      "Familiebiler"
+    ],
+    "created_at": "2025-12-18T10:17:59.000000Z",
+    "updated_at": "2025-12-18T10:17:59.000000Z"
+  },
+  {
+    "id": 41,
+    "struct_id": 2173705,
+    "web_id": "A421C49B-B236-4E72-AF46-BAC9A48C6C9C",
+    "name": "EV6",
+    "year": "2026",
+    "delivery_year": "2025",
+    "disclaimer": "",
+    "model": {
+      "name": "EV6",
+      "brand": "Kia",
+      "code": "AS",
+      "parent_model_code": "CV"
+    },
+    "variant": {
+      "name": "CUV",
+      "code": "W5",
+      "b2b": false
+    },
+    "primary_image": {
+      "struct_id": "7754",
+      "name": "Kia Ev6 Pe Ex My25 ISM Ivorysilvermatt 20 0000",
+      "url": "https://nellemann.cloud12.structpim.com/media/1yljurut/kia-ev6-pe-ex-my25-ism_ivorysilvermatt-20_0000.png",
+      "file_type": "Image",
+      "type": "Image"
+    },
+    "technical_specifications": null,
+    "dimensions": null,
+    "campaign": null,
+    "urls": {
+      "website": "https://www.kia.com/dk/modeller/ev6/digital-discover/",
+      "build_configurator": "https://kiaonline.dk/konfigurator/ev6/",
+      "leasing_configurator": "https://kiaonline.dk/bestil/ev6/",
+      "technical_specifications": "https://www.kia.com/dk/modeller/ev6/specifikationer/",
+      "test_drive": "https://kiaonline.dk/book-en-proevetur/ev6/"
+    },
+    "channels": {
+      "master_channel": {
+        "open_from": "2025-04-30",
+        "open_to": null
+      },
+      "web_channel": {
+        "open_from": "2025-04-30",
+        "open_to": null
+      },
+      "dealer_channel": {
+        "open_from": "2025-05-01",
+        "open_to": null,
+        "open_internal": false
+      },
+      "price_channel": {
+        "open_from": "2025-05-01",
+        "open_to": null
+      },
+      "test_drive_channel": {
+        "booking_start": "2024-10-22",
+        "test_start": "2024-10-29"
+      }
+    },
+    "price_list": {
+      "primary_image": {
+        "struct_id": "11726",
+        "name": "Kia Ev6",
+        "url": "https://nellemann.cloud12.structpim.com/media/msaalsu5/kia-ev6.jpg",
+        "file_type": "Image",
+        "type": "Image"
+      },
+      "campaign_image": null
+    },
+    "files": [
+      {
+        "file": null,
+        "document_type": "Prisliste",
+        "valid_from": "2024-10-23",
+        "valid_to": null,
+        "url": "https://www.kia.com/dk/modeller/ev6/specifikationer/"
+      },
+      {
+        "file": null,
+        "document_type": "Brochure",
+        "valid_from": null,
+        "valid_to": null,
+        "url": "https://brochure.kia.com/KiaMotorsDanmark/Brochurer/ev6/"
+      },
+      {
+        "file": null,
+        "document_type": "Tekniske data",
+        "valid_from": "2024-10-23",
+        "valid_to": null,
+        "url": "https://brochure.kia.com/KiaMotorsDanmark/Teknikark/ev6/"
+      },
+      {
+        "file": null,
+        "document_type": "Instruktionsbog",
+        "valid_from": "2025-03-10",
+        "valid_to": null,
+        "url": "https://brochure.kia.com/KiaMotorsDanmark/instruktionsbog/nye-modeller/ev6-2025-/"
+      },
+      {
+        "file": null,
+        "document_type": "Tilbehør",
+        "valid_from": null,
+        "valid_to": null,
+        "url": "https://tools.kiaonline.dk/storage/price-lists/ev6.pdf"
+      }
+    ],
+    "insurance_rates": [
+      {
+        "age_from": 18,
+        "age_to": 20,
+        "annual_price": 12655,
+        "excess": 10000
+      },
+      {
+        "age_from": 21,
+        "age_to": 23,
+        "annual_price": 11623,
+        "excess": 5000
+      },
+      {
+        "age_from": 24,
+        "age_to": 29,
+        "annual_price": 6669,
+        "excess": 5000
+      },
+      {
+        "age_from": 30,
+        "age_to": 150,
+        "annual_price": 6049,
+        "excess": 5000
+      }
+    ],
+    "categories": [
+      "Premium",
+      "EV",
+      "Elektrificerede modeller",
+      "Elektrisk",
+      "Familiebiler"
+    ],
+    "created_at": "2025-12-18T10:20:19.000000Z",
+    "updated_at": "2025-12-18T10:20:19.000000Z"
+  },
+  {
+    "id": 44,
+    "struct_id": 2188884,
+    "web_id": "10cecda7-10ca-4add-97fb-ba1df046cd59",
+    "name": "EV9",
+    "year": "2026",
+    "delivery_year": "2025",
+    "disclaimer": null,
+    "model": {
+      "name": "EV9",
+      "brand": "Kia",
+      "code": "DO",
+      "parent_model_code": "MV"
+    },
+    "variant": {
+      "name": "SUV m. 7 sæder",
+      "code": "W7",
+      "b2b": false
+    },
+    "primary_image": {
+      "struct_id": "6903",
+      "name": "Kia Ev9 Mvmy24 Iegiceberggreen 19 0000",
+      "url": "https://nellemann.cloud12.structpim.com/media/opbdkhtq/kia-ev9-mvmy24-iegiceberggreen-19_0000.png",
+      "file_type": "Image",
+      "type": "Image"
+    },
+    "technical_specifications": null,
+    "dimensions": null,
+    "campaign": null,
+    "urls": {
+      "website": "https://www.kia.com/dk/modeller/ev9/oplev/",
+      "build_configurator": "https://kiaonline.dk/konfigurator/ev9/",
+      "leasing_configurator": "https://kiaonline.dk/bestil/ev9/",
+      "technical_specifications": "https://www.kia.com/dk/modeller/ev9/specifikationer/",
+      "test_drive": "https://kiaonline.dk/book-en-proevetur/ev9/"
+    },
+    "channels": {
+      "master_channel": {
+        "open_from": "2025-04-30",
+        "open_to": null
+      },
+      "web_channel": {
+        "open_from": "2025-04-30",
+        "open_to": null
+      },
+      "dealer_channel": {
+        "open_from": "2025-05-01",
+        "open_to": null,
+        "open_internal": false
+      },
+      "price_channel": {
+        "open_from": "2025-05-01",
+        "open_to": null
+      },
+      "test_drive_channel": {
+        "booking_start": "2024-11-07",
+        "test_start": "2024-11-07"
+      }
+    },
+    "price_list": {
+      "primary_image": {
+        "struct_id": "11725",
+        "name": "Kia Ev9",
+        "url": "https://nellemann.cloud12.structpim.com/media/5zrl52zl/kia-ev9.jpg",
+        "file_type": "Image",
+        "type": "Image"
+      },
+      "campaign_image": null
+    },
+    "files": [
+      {
+        "file": null,
+        "document_type": "Brochure",
+        "valid_from": "2024-09-15",
+        "valid_to": null,
+        "url": "https://brochure.kia.com/KiaMotorsDanmark/Brochurer/ev9/"
+      },
+      {
+        "file": null,
+        "document_type": "Prisliste",
+        "valid_from": "2024-09-15",
+        "valid_to": null,
+        "url": "https://www.kia.com/dk/modeller/ev9/specifikationer/"
+      },
+      {
+        "file": null,
+        "document_type": "Tekniske data",
+        "valid_from": "2024-09-17",
+        "valid_to": null,
+        "url": "https://brochure.kia.com/KiaMotorsDanmark/Teknikark/ev9/"
+      },
+      {
+        "file": null,
+        "document_type": "Tilbehør",
+        "valid_from": null,
+        "valid_to": null,
+        "url": "https://tools.kiaonline.dk/storage/price-lists/ev9.pdf"
+      }
+    ],
+    "insurance_rates": [
+      {
+        "age_from": 18,
+        "age_to": 20,
+        "annual_price": 16673,
+        "excess": 10000
+      },
+      {
+        "age_from": 21,
+        "age_to": 23,
+        "annual_price": 15313,
+        "excess": 5000
+      },
+      {
+        "age_from": 24,
+        "age_to": 29,
+        "annual_price": 8791,
+        "excess": 5000
+      },
+      {
+        "age_from": 30,
+        "age_to": 150,
+        "annual_price": 7976,
+        "excess": 5000
+      }
+    ],
+    "categories": [
+      "Premium",
+      "GT",
+      "EV",
+      "Elektrificerede modeller",
+      "Elektrisk",
+      "Familiebiler",
+      "SUV"
+    ],
+    "created_at": "2025-12-18T10:20:49.000000Z",
+    "updated_at": "2025-12-18T10:20:49.000000Z"
+  },
+  {
+    "id": 38,
+    "struct_id": 2159531,
+    "web_id": "0AD72C08-2197-479B-A346-A933CC663F2E",
+    "name": "Picanto",
+    "year": "2025",
+    "delivery_year": "2025",
+    "disclaimer": null,
+    "model": {
+      "name": "Picanto",
+      "brand": "Kia",
+      "code": "G6",
+      "parent_model_code": "JA"
+    },
+    "variant": {
+      "name": "5 døre",
+      "code": "S6",
+      "b2b": false
+    },
+    "primary_image": {
+      "struct_id": "7563",
+      "name": "Kia Picanto Gtl My25 Kcs Sparkling Silver 16D 0000 (1)",
+      "url": "https://nellemann.cloud12.structpim.com/media/hsejuuuv/kia-picanto-gtl-my25-kcs-sparkling-silver-16d_0000.png",
+      "file_type": "Image",
+      "type": "Image"
+    },
+    "technical_specifications": {
+      "fueltank_volume": 35,
+      "electric_horsepower": null,
+      "electric_horsepower_rev_range": null,
+      "electric_torque": null,
+      "electric_torque_rev_range": null,
+      "total_horsepower": null,
+      "total_horsepower_rev_range": null,
+      "total_torque": null,
+      "total_torque_rev_range": null
+    },
+    "dimensions": null,
+    "campaign": null,
+    "urls": {
+      "website": null,
+      "build_configurator": "https://kiaonline.dk/konfigurator/picanto/",
+      "leasing_configurator": "https://kiaonline.dk/bestil/picanto/",
+      "technical_specifications": "https://www.kia.com/dk/modeller/picanto/specifikationer/",
+      "test_drive": null
+    },
+    "channels": {
+      "master_channel": {
+        "open_from": "2023-05-31",
+        "open_to": null
+      },
+      "web_channel": {
+        "open_from": "2024-09-09",
+        "open_to": "2025-05-27"
+      },
+      "dealer_channel": {
+        "open_from": "2024-07-16",
+        "open_to": "2025-02-27",
+        "open_internal": false
+      },
+      "price_channel": null,
+      "test_drive_channel": null
+    },
+    "price_list": null,
+    "files": [
+      {
+        "file": null,
+        "document_type": "Prisliste",
+        "valid_from": "2024-09-15",
+        "valid_to": null,
+        "url": "https://brochure.kia.com/KiaMotorsDanmark/Prislister/ny-picanto-prisliste/"
+      }
+    ],
+    "insurance_rates": [
+      {
+        "age_from": 18,
+        "age_to": 20,
+        "annual_price": 10488,
+        "excess": 10000
+      },
+      {
+        "age_from": 21,
+        "age_to": 23,
+        "annual_price": 8836,
+        "excess": 5000
+      },
+      {
+        "age_from": 24,
+        "age_to": 29,
+        "annual_price": 4192,
+        "excess": 5000
+      },
+      {
+        "age_from": 30,
+        "age_to": 150,
+        "annual_price": 4088,
+        "excess": 5000
+      }
+    ],
+    "categories": [
+      "Bybiler"
+    ],
+    "created_at": "2025-12-18T10:19:47.000000Z",
+    "updated_at": "2025-12-18T10:19:47.000000Z"
+  },
+  {
+    "id": 48,
+    "struct_id": 2193783,
+    "web_id": "d4b04fe2-9270-45fb-8f15-813aff6a98ab",
+    "name": "PV5 Cargo",
+    "year": "2026",
+    "delivery_year": "2025",
+    "disclaimer": "",
+    "model": {
+      "name": "PV5",
+      "brand": "Kia",
+      "code": "7W",
+      "parent_model_code": "SW"
+    },
+    "variant": {
+      "name": "Cargo L2H1",
+      "code": "FA",
+      "b2b": true
+    },
+    "primary_image": {
+      "struct_id": "12806",
+      "name": "Kia Pv5 Cargo3dr My26 Klg Steelgrey 16 0000",
+      "url": "https://nellemann.cloud12.structpim.com/media/ldcmn11n/kia-pv5-cargo3dr-my26-klg-steelgrey-16_0000.png",
+      "file_type": "Image",
+      "type": "Image"
+    },
+    "technical_specifications": null,
+    "dimensions": {
+      "cargo_volume": 4.4,
+      "cargo_length": 225,
+      "cargo_width_max": 156,
+      "cargo_width_min": 92,
+      "cargo_width_wheel_housing": 133,
+      "cargo_height": 152,
+      "loading_height_rear": 41.9,
+      "loading_height_side": 39.9,
+      "chassis_length": null,
+      "chassis_height": null,
+      "chassis_max_overhang": null
+    },
+    "campaign": null,
+    "urls": {
+      "website": "https://www.kia.com/dk/pbv/modeller/pv5-cargo/",
+      "build_configurator": null,
+      "leasing_configurator": "",
+      "technical_specifications": "https://www.kia.com/dk/pbv/modeller/pv5-cargo/specifikationer/",
+      "test_drive": null
+    },
+    "channels": {
+      "master_channel": {
+        "open_from": "2025-05-22",
+        "open_to": null
+      },
+      "web_channel": {
+        "open_from": "2025-08-07",
+        "open_to": null
+      },
+      "dealer_channel": {
+        "open_from": "2025-08-08",
+        "open_to": null,
+        "open_internal": false
+      },
+      "price_channel": {
+        "open_from": "2025-08-07",
+        "open_to": null
+      },
+      "test_drive_channel": null
+    },
+    "price_list": {
+      "primary_image": {
+        "struct_id": "13988",
+        "name": "Pv5cargo",
+        "url": "https://nellemann.cloud12.structpim.com/media/iejnwb0q/pv5cargo.jpg",
+        "file_type": "Image",
+        "type": "Image"
+      },
+      "campaign_image": null
+    },
+    "files": [
+      {
+        "file": null,
+        "document_type": "Tilbehør",
+        "valid_from": null,
+        "valid_to": null,
+        "url": "https://tools.kiaonline.dk/storage/price-lists/vans/pv5-cargo.pdf"
+      }
+    ],
+    "insurance_rates": [],
+    "categories": [
+      "Elektrisk",
+      "Elektrificerede modeller"
+    ],
+    "created_at": "2025-12-18T10:21:40.000000Z",
+    "updated_at": "2025-12-18T10:21:40.000000Z"
+  },
+  {
+    "id": 49,
+    "struct_id": 2210279,
+    "web_id": "77a9a314-4a13-4792-9d09-da4ec5da62f5",
+    "name": "PV5 Chassis",
+    "year": "2026",
+    "delivery_year": "2025",
+    "disclaimer": null,
+    "model": {
+      "name": "PV5",
+      "brand": "Kia",
+      "code": "7W",
+      "parent_model_code": "SW"
+    },
+    "variant": {
+      "name": "Chassis",
+      "code": "CC",
+      "b2b": true
+    },
+    "primary_image": {
+      "struct_id": "18053",
+      "name": "Kia Pv5 Chassis My26 Cge Cityscapegreen 16 0000",
+      "url": "https://nellemann.cloud12.structpim.com/media/tcon2zkj/kia-pv5-chassis-my26-cge-cityscapegreen-16_0000.png",
+      "file_type": "Image",
+      "type": "Image"
+    },
+    "technical_specifications": null,
+    "dimensions": {
+      "cargo_volume": null,
+      "cargo_length": null,
+      "cargo_width_max": null,
+      "cargo_width_min": null,
+      "cargo_width_wheel_housing": null,
+      "cargo_height": null,
+      "loading_height_rear": null,
+      "loading_height_side": null,
+      "chassis_length": 212,
+      "chassis_height": null,
+      "chassis_max_overhang": 128
+    },
+    "campaign": null,
+    "urls": {
+      "website": null,
+      "build_configurator": null,
+      "leasing_configurator": null,
+      "technical_specifications": "https://www.kia.com/dk/pbv/modeller/pv5-chassis-cab/specifikationer/",
+      "test_drive": null
+    },
+    "channels": {
+      "master_channel": {
+        "open_from": "2025-11-03",
+        "open_to": null
+      },
+      "web_channel": null,
+      "dealer_channel": {
+        "open_from": "2025-11-19",
+        "open_to": null,
+        "open_internal": false
+      },
+      "price_channel": {
+        "open_from": "2025-11-18",
+        "open_to": null
+      },
+      "test_drive_channel": null
+    },
+    "price_list": {
+      "primary_image": {
+        "struct_id": "18273",
+        "name": "Kia Pv5 Chassis",
+        "url": "https://nellemann.cloud12.structpim.com/media/tz2fyp5z/kia-pv5-chassis.jpg",
+        "file_type": "Image",
+        "type": "Image"
+      },
+      "campaign_image": null
+    },
+    "files": [],
+    "insurance_rates": [],
+    "categories": [],
+    "created_at": "2025-12-18T10:21:47.000000Z",
+    "updated_at": "2025-12-18T10:21:47.000000Z"
+  },
+  {
+    "id": 47,
+    "struct_id": 2193782,
+    "web_id": "4f1597b3-f46c-45ca-8eef-8526e70ceb3b",
+    "name": "PV5 Passenger",
+    "year": "2026",
+    "delivery_year": "2025",
+    "disclaimer": "",
+    "model": {
+      "name": "PV5",
+      "brand": "Kia",
+      "code": "7W",
+      "parent_model_code": "SW"
+    },
+    "variant": {
+      "name": "Passenger 5 sæder",
+      "code": "B5",
+      "b2b": false
+    },
+    "primary_image": {
+      "struct_id": "13172",
+      "name": "Kia Pv5 Passenger My26 Sml Softmint 16 0000",
+      "url": "https://nellemann.cloud12.structpim.com/media/xkyaav2i/kia-pv5-passenger-my26-sml-softmint-16_0000.png",
+      "file_type": "Image",
+      "type": "Image"
+    },
+    "technical_specifications": null,
+    "dimensions": null,
+    "campaign": null,
+    "urls": {
+      "website": "https://www.kia.com/dk/pbv/modeller/pv5-passenger/",
+      "build_configurator": "https://kiaonline.dk/konfigurator/pv5-passenger/",
+      "leasing_configurator": "https://kiaonline.dk/bestil/pv5-passenger/",
+      "technical_specifications": "https://www.kia.com/dk/pbv/modeller/pv5-passenger/specifikationer/",
+      "test_drive": null
+    },
+    "channels": {
+      "master_channel": {
+        "open_from": "2025-06-16",
+        "open_to": null
+      },
+      "web_channel": {
+        "open_from": "2025-06-18",
+        "open_to": null
+      },
+      "dealer_channel": {
+        "open_from": "2025-06-18",
+        "open_to": null,
+        "open_internal": false
+      },
+      "price_channel": {
+        "open_from": "2025-06-16",
+        "open_to": null
+      },
+      "test_drive_channel": {
+        "booking_start": "2025-12-01",
+        "test_start": "2025-12-01"
+      }
+    },
+    "price_list": {
+      "primary_image": {
+        "struct_id": "13682",
+        "name": "Kia Pv5 Passenger",
+        "url": "https://nellemann.cloud12.structpim.com/media/1y5fegyv/kia-pv5-passenger.jpg",
+        "file_type": "Image",
+        "type": "Image"
+      },
+      "campaign_image": null
+    },
+    "files": [
+      {
+        "file": null,
+        "document_type": "Tilbehør",
+        "valid_from": null,
+        "valid_to": null,
+        "url": "https://tools.kiaonline.dk/storage/price-lists/pv5-passenger.pdf"
+      }
+    ],
+    "insurance_rates": [],
+    "categories": [
+      "EV",
+      "Elektrisk",
+      "Elektrificerede modeller",
+      "Familiebiler"
+    ],
+    "created_at": "2025-12-18T10:21:31.000000Z",
+    "updated_at": "2025-12-18T10:21:31.000000Z"
+  }
+]
