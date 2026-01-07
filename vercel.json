@@ -8,7 +8,7 @@
       ]
     },
     {
-      "source": "/tool-two.js",
+      "source": "/car-trims.js",
       "headers": [
         { "key": "Access-Control-Allow-Origin", "value": "*" },
         { "key": "Access-Control-Allow-Methods", "value": "GET, OPTIONS" }

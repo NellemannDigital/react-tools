@@ -1,16 +1,7 @@
-export interface CarImage {
-  url: string
-  name: string
-  type: 'Image'
-  file_type: 'Image'
-  struct_id: string
-}
-
 export interface Car {
   id: number
   name: string
-  primary_image: CarImage
-  featuredEquipment?: string
+  primaryImage?: { url: string; name: string }
 }
 
 interface Props {
@@ -30,9 +21,9 @@ export default function CarList({ cars }: Props) {
                 className="border overflow-hidden transition"
               >
                 <div className="flex justify-center items-center bg-gray-100 h-48">
-                  {car.primary_image ? (
+                  {car.primaryImage ? (
                     <img
-                      src={car.primary_image.url}
+                      src={car.primaryImage.url}
                       alt={car.name}
                       className="w-full h-full object-contain"
                     />
@@ -44,11 +35,6 @@ export default function CarList({ cars }: Props) {
                 <div className="flex flex-col justify-between bg-gray-50 p-6">
                   <header>
                     <h2 className="mb-2 font-semibold text-xl">{car.name}</h2>
-                    {car.featuredEquipment && (
-                      <p className="mb-4 text-gray-600 text-sm">
-                        {car.featuredEquipment}
-                      </p>
-                    )}
                   </header>
                   <div className="flex gap-3 mt-4">
                     <a

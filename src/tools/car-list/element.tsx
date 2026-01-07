@@ -5,7 +5,7 @@ import App, { type Car } from './App'
 class CarListElement extends HTMLElement {
   async connectedCallback() {
     const carIdAttr = this.getAttribute('car-id')
-    let url = 'https://gaz7i9sbcz.sharedwithexpose.com/api/tools/cars'
+    let url = 'https://tools-kiaonline.test/api/cars'
 
     if (carIdAttr) {
       const ids = carIdAttr.split(',').map(id => id.trim())
@@ -13,10 +13,17 @@ class CarListElement extends HTMLElement {
     }
 
     try {
-      const res = await fetch(url)
-      const cars: Car[] = await res.json()
+      const res = await fetch(url);
+      const data = await res.json();
+
+      const cars: Car[] = data.map((car: any) => ({
+        id: car.id,
+        name: car.name,
+        primaryImage: car.primary_image
+      }));
 
       const shadow = this.attachShadow({ mode: 'open' });
+
       const style = document.createElement('style');
       style.textContent = Style;
       shadow.appendChild(style);
@@ -25,7 +32,6 @@ class CarListElement extends HTMLElement {
       shadow.appendChild(mount);
 
       ReactDOM.createRoot(mount).render(<App cars={cars} />)
-
     } catch (error) {
       console.error('Failed to load cars:', error)
       throw error
