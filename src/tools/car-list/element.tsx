@@ -5,7 +5,7 @@ import App, { type Car } from './App'
 class CarListElement extends HTMLElement {
   async connectedCallback() {
     const carIdAttr = this.getAttribute('car-id')
-    let url = './cars.json'
+    let url = 'https://react-tools-zeta.vercel.app/cars.json'
 
     if (carIdAttr) {
       const ids = carIdAttr.split(',').map(id => id.trim())
