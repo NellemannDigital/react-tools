@@ -4,6 +4,9 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   plugins: [tailwindcss(), react()],
+  define: {
+    'process.env': {}
+  },
   build: {
     outDir: 'public',
     rollupOptions: {
