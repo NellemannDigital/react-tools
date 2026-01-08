@@ -53,21 +53,25 @@ class CarListElement extends HTMLElement {
       const style = document.createElement("style");
       style.textContent = `
         @font-face {
-          font-family: "Kia";
+          font-family: "KiaSignature";
           src: url("${KiaRegular}") format("woff2");
           font-weight: 400;
           font-style: normal;
           font-display: swap;
         }
         @font-face {
-          font-family: "Kia";
+          font-family: "KiaSignature";
           src: url("${KiaBold}") format("woff2");
           font-weight: 700;
+          font-style: normal;
+          font-display: swap;
         }
         @font-face {
-          font-family: "Kia";
+          font-family: "KiaSignature";
           src: url("${KiaLight}") format("woff2");
           font-weight: 300;
+          font-style: normal;
+          font-display: swap;
         }
         ${Style}
         `;
