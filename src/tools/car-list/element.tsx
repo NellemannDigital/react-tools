@@ -1,42 +1,64 @@
-import ReactDOM from 'react-dom/client';
-import Style from './style.css?inline';
-import App, { type Car } from './App'
+import ReactDOM from "react-dom/client";
+import Style from "./style.css?inline";
+import App from "./App";
+import { fetchCars } from "./data";
 
 class CarListElement extends HTMLElement {
   async connectedCallback() {
-    const carIdAttr = this.getAttribute('car-id')
-    let url = 'https://tools-kiaonline.test/api/cars'
+    const carIds = this.getAttribute("car-id");
+    const categoryAttr = this.getAttribute("category")?.toLowerCase();
 
-    if (carIdAttr) {
-      const ids = carIdAttr.split(',').map(id => id.trim())
-      url += '?ids=' + ids.join(',')
-    }
+    const ids = carIds
+      ? carIds.split(",").map((id) => id.trim())
+      : undefined;
 
     try {
-      const res = await fetch(url);
-      const data = await res.json();
+      const cars = await fetchCars(ids);
 
-      const cars: Car[] = data.map((car: any) => ({
-        id: car.id,
-        name: car.name,
-        primaryImage: car.primary_image
-      }));
+      const categoryMap: Record<string, string> = {
+        "EV": "Elbiler",
+        "Elektrisk": "Elbiler", 
+        "Elektrificerede modeller": "Elbiler",
+        "Bybiler": "Bybiler",
+        "Familiebiler": "Familiebiler",
+        "SUV": "SUV",
+        "Premium": "Premium",
+        "GT": "GT",
+      };
 
-      const shadow = this.attachShadow({ mode: 'open' });
+      const rawCategories = cars.flatMap(car => car.categories);
 
-      const style = document.createElement('style');
+      const categories = Array.from(
+        new Map(
+          rawCategories.map(cat => {
+            const mappedName = categoryMap[cat] || cat;
+            const info = { name: mappedName }; 
+            return [
+              info.name,
+              { 
+                ...info, 
+                selected: categoryAttr ? info.name.toLowerCase() === categoryAttr : false
+              }
+            ];
+          })
+        ).values()
+      );
+
+
+      const shadow = this.attachShadow({ mode: "open" });
+
+      const style = document.createElement("style");
       style.textContent = Style;
       shadow.appendChild(style);
 
-      const mount = document.createElement('div');
+      const mount = document.createElement("div");
       shadow.appendChild(mount);
 
-      ReactDOM.createRoot(mount).render(<App cars={cars} />)
+      ReactDOM.createRoot(mount).render(<App cars={cars} categories={categories} />);
     } catch (error) {
-      console.error('Failed to load cars:', error)
-      throw error
+      console.error("Failed to load cars:", error);
     }
   }
 }
 
-customElements.define('car-list', CarListElement)
+customElements.define("car-list", CarListElement);

@@ -14,15 +14,13 @@ class CarTrimsElement extends HTMLElement {
       return;
     }
 
-    const url = `https://qzb1gxuer5.sharedwithexpose.com/api/cars/${carId}`;
+    const url = `https://tools-kiaonline.test/api/cars/${carId}`;
 
     try {
       const res = await fetch(url);
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
       const data = await res.json();
-
-      console.log(data)
 
       const car: Car = {
         id: data.id,
