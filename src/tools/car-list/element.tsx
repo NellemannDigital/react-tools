@@ -1,4 +1,7 @@
 import ReactDOM from "react-dom/client";
+import KiaRegular from '../../fonts/KiaSignatureRegular.woff2';
+import KiaBold from '../../fonts/KiaSignatureBold.woff2';
+import KiaLight from '../../fonts/KiaSignatureLight.woff2';
 import Style from "./style.css?inline";
 import App from "./App";
 import { fetchCars } from "./data";
@@ -48,7 +51,26 @@ class CarListElement extends HTMLElement {
       const shadow = this.attachShadow({ mode: "open" });
 
       const style = document.createElement("style");
-      style.textContent = Style;
+      style.textContent = `
+        @font-face {
+          font-family: "Kia";
+          src: url("${KiaRegular}") format("woff2");
+          font-weight: 400;
+          font-style: normal;
+          font-display: swap;
+        }
+        @font-face {
+          font-family: "Kia";
+          src: url("${KiaBold}") format("woff2");
+          font-weight: 700;
+        }
+        @font-face {
+          font-family: "Kia";
+          src: url("${KiaLight}") format("woff2");
+          font-weight: 300;
+        }
+        ${Style}
+        `;
       shadow.appendChild(style);
 
       const mount = document.createElement("div");

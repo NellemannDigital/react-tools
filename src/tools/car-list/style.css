@@ -80,8 +80,9 @@
 @source "./App.tsx";
 
 @theme {
+    --font-sans: "Kia", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    
     --color-kia-black: #05141f;
-
     --color-kia-gray-50: #f3f4f5;
     --color-kia-gray-100: #ebe6e7;
     --color-kia-gray-200: #cdd0d2;

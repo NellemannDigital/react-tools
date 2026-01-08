@@ -2,7 +2,7 @@ import type { Car } from "./App";
 
 
 export const fetchCars = async (ids?: string[]): Promise<Car[]> => {
-  let url = "https://rmml77tcjv.sharedwithexpose.com/api/cars";
+  let url = "https://gjfoo0mnzi.sharedwithexpose.com/api/cars";
 
   if (ids && ids.length > 0) {
     url += "?ids=" + ids.join(",");
